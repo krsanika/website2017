@@ -1,0 +1,206 @@
+#navSide
+{
+}
+body
+{
+    margin:0px;
+    padding-top: 50px;
+}
+
+.invisible
+{
+    opacity: 0;
+}
+.visible
+{
+    /*opacity: 1;*/
+    animation-duration: 1s;
+    -webkit-animation-name: menuAnim;
+    -moz-animation-name: menuAnim;
+    -o-animation-name: menuAnim;
+    animation-name: menuAnim; ;
+}
+@keyframes menuAnim {
+    from
+    {
+        opacity: 0;
+        margin-top: -20%;
+    }
+    to
+    {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+#img-logo
+{
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/jokerforge_img_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.side-bar
+{
+    /*margin-left: 5%;*/
+    width:  200px;
+    position: static;
+    float: left;
+}
+#miragePictre
+{
+    width: 200px;
+}
+#profile_table td
+{
+    padding: 5px;
+}
+
+#nav-bar
+{
+    background-color: #B10303;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#logo-td
+{
+    padding: 0px;
+}
+#content-block
+{
+    position: static;
+    float: left;
+    width: 600px;
+}
+#content-block-header
+{
+    height: 150px;
+    background-image: url(../img/jokerforge_text_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    opacity: 0.5;
+    width: 50%;
+    margin-left: 50%;
+}
+.content-head
+{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.menu
+{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-top: 1px solid white;
+}
+.content-box
+{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#body-box
+{
+    margin:0 auto;
+    width: 850px;
+    position: relative;
+}
+.poiloText
+{
+    margin-bottom: 20px;
+}
+
+#footer_bar
+{
+    clear: both;
+    bottom: 0px;
+    margin-left: 5%;
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 50px;
+    margin-right: 5%;
+}
+
+.sns
+{
+    float: left;
+    padding: 5px;
+}
+
+#ceo-photo
+{
+    width: 200px;
+    height: auto;
+}
+
+.poster
+{
+    float: left;
+    width: 25%;
+}
+
+.fb-page
+{
+    margin-left: 25%;
+}
+.text-box
+{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    max-width: 350px;;
+}
+.long-text-box
+{
+
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    max-width: 600px;
+}
+.padding-top50px
+{
+    padding-top: 50px;
+}
+.margin-10px
+{
+    margin-bottom: 10px;
+}
+.margin-5px
+{
+    margin-bottom: 5px;
+}
+
+#profile_table
+{
+    margin-left: 25%;
+}
+
+.absolute
+{
+    top: -10000px;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
